@@ -1,6 +1,6 @@
-# How to use Vundle?
+# How to use vundle?
 
-## 0. Vundle is a plug-in manager for Vim.
+## 0. vundle is a plug-in manager for vim.
 
 ## 1. backup your original .vimrc file and .vim directory.
 ```
@@ -10,24 +10,23 @@ if [ -e .vim ]; then mv .vim .vim_bak; fi
 
 ## 2. clone the vundle repo
 ```
-$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+$ git clone https://github.com/vundlevim/vundle.vim.git ~/.vim/bundle/vundle.vim
 ```
 
 ## 3. edit ```.vimrc```, for example:
-
 ```
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
+" set the runtime path to include vundle and initialize
+set rtp+=~/.vim/bundle/vundle.vim
 
 call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
+" alternatively, pass a path where vundle should install plugins
 "call vundle#begin('~/some/path/here')
 
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
+" let vundle manage vundle, required
+Plugin 'vundlevim/vundle.vim'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -77,7 +76,7 @@ filetype plugin indent on    " required
 :PluginInstall!
 ```
 
-## 5. how to install a plugin (another way)?
+## 5. how to install a plugin (in another way)?
 ```
 $ vim
 
@@ -106,7 +105,7 @@ Plugin 'Markdown'
 # run following command in vim
 :PluginClean
 
-#method 2
+# method 2
 # list all installed plugins
 :PluginList
 
