@@ -101,11 +101,20 @@ Plugin 'Markdown'
 
 ## 6. how to delete a plugin?
 ```
+# method 1
 # delete the plugin in .vimrc file first
 # run following command in vim
 :PluginClean
+
+#method 2
+# list all installed plugins
+:PluginList
+
+# move the curosr to the plugin that you want to delete
+# type "D" to delete
+# move the deleted plugin in .vimrc
 ```
 
-## 7. vundle mannual
+## 7. vundle manual
 Run following command in ```vim```:
 ```:h vundle```
