@@ -7,3 +7,8 @@ Plesae refer to the following link: [Install](https://chocolatey.org/install)
 ```
 choco install notepadplusplus
 ```
+## 3. Commands
+```
+choco list --local-only
+choco search vagrant
+```
