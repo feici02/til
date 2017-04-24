@@ -9,6 +9,11 @@ choco install notepadplusplus
 ```
 ## 3. Commands
 ```
+choco search atom
+choco install -y atom
+
 choco list --local-only
-choco search vagrant
+
+choco outdated
+choco uninstall atom
 ```
