@@ -1,4 +1,4 @@
-# installation
+# install
 
 ## Ubuntu
 ```
@@ -9,4 +9,9 @@ sudo apt-get install -y nodejs
 ## macOS
 ```
 brew install node
+```
+
+## check
+```
+node -v
 ```
