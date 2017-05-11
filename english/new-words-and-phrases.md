@@ -9,3 +9,9 @@
 a place for the storage of large quantities of equipment, food, or some other commodity
 * Office Depot
 * Home Depot
+
+# in the middle of nowhere
+
+# the curse of success
+
+# gamification

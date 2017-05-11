@@ -18,5 +18,15 @@ npm install <package>
 npm install -g <package>
 ```
 
+## list globally installed packages
+```
+npm install -g --depth=0
+```
+
+## uninstall globally installed packages
+```
+npm uinstall -g <package>
+```
+
 ## reference
 1. <https://www.npmjs.com/>
