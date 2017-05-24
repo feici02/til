@@ -10,4 +10,5 @@
 1. travis ci
 1. neovim
 1. fish
-
+1. <https://commandlinepoweruser.com>
+1. tmux-plugins

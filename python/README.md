@@ -1,5 +1,10 @@
 # Python
 
+## The Zen of Python
+```
+python3 -m this
+```
+
 ## reference
 
 1. [Official Documentation](https://docs.python.org/3/index.html)
@@ -7,6 +12,9 @@
 1. [Python tutorials on tuts+](https://code.tutsplus.com/categories/python)
 1. [Python3 tutorial on TutorialsPoint](https://www.tutorialspoint.com/python3/index.htm)
 1. [Dive Into Python 3](http://www.diveintopython3.net/)
+
+## blogs
+1. [Jeff Knupp](https://jeffknupp.com/)
 
 
 ## podcasts

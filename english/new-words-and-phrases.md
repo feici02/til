@@ -15,3 +15,9 @@ a place for the storage of large quantities of equipment, food, or some other co
 # the curse of success
 
 # gamification
+
+# deep dive
+
+# track record
+
+
