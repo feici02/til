@@ -12,3 +12,5 @@
 1. fish
 1. <https://commandlinepoweruser.com>
 1. tmux-plugins
+1. <http://www.unsv.com/voanews/words-and-idioms/lessons/1/>
+1. <https://hyperledger-fabric.readthedocs.io/en/latest/>
