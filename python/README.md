@@ -12,6 +12,7 @@ python3 -m this
 1. [Python tutorials on tuts+](https://code.tutsplus.com/categories/python)
 1. [Python3 tutorial on TutorialsPoint](https://www.tutorialspoint.com/python3/index.htm)
 1. [Dive Into Python 3](http://www.diveintopython3.net/)
+1. [PyBites](http://pybit.es/)
 
 ## blogs
 1. [Jeff Knupp](https://jeffknupp.com/)

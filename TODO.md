@@ -14,3 +14,7 @@
 1. tmux-plugins
 1. <http://www.unsv.com/voanews/words-and-idioms/lessons/1/>
 1. <https://hyperledger-fabric.readthedocs.io/en/latest/>
+1. [The Twelve-Factor](https://12factor.net/)
+1. Read the Docs
+1. Sphinx
+1. Hugo + Caddy
