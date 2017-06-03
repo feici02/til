@@ -5,6 +5,18 @@
 python3 -m this
 ```
 
+## keywords
+```
+import keyword
+print(keyword.kwlist)
+```
+
+## builtin exceptions, functions and other objects
+```
+import buildins
+dir(builtins)
+```
+
 ## reference
 
 1. [Official Documentation](https://docs.python.org/3/index.html)
