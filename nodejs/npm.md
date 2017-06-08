@@ -18,6 +18,11 @@ npm install <package>
 npm install -g <package>
 ```
 
+## upgrade npm
+```
+npm install npm@latest -g
+```
+
 ## list globally installed packages
 ```
 npm install -g --depth=0
