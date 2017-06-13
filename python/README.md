@@ -25,6 +25,8 @@ dir(builtins)
 1. [Python3 tutorial on TutorialsPoint](https://www.tutorialspoint.com/python3/index.htm)
 1. [Dive Into Python 3](http://www.diveintopython3.net/)
 1. [PyBites](http://pybit.es/)
+1. [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
+1. [PEP 8](http://pep8.org/)
 
 ## blogs
 1. [Jeff Knupp](https://jeffknupp.com/)

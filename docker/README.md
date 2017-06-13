@@ -24,23 +24,35 @@ docker attach test
 # it is still running
 docker ps
 
-docker stop test
-docker ps
-
-docker start test
 docker attach test
 # run exit command in the container
 
+# check the status of the container: exited
 docker ps
-# check the status of the container 
+
+docker start test
+docker ps
+
+docker stop test
+docker ps
 ```
 
 ## about docker attach/logs
 ```
 docker run -itd --name test ubuntu bash -c "while true; do echo hi; sleep 1; done"
 
+# you can see the message after attaching
 docker attach test
+# quit from container: Ctrl+p, Ctrl+q
+
+# you can check what's on the stdout without entering the container
 docker logs -f test
+
+# start a new bash in the container
+docker exec -it test bash
+
+# run ps in the container, you will see there are two bash running
+# exit from the container, and the container will continue to run
 
 docker stop test
 ```
