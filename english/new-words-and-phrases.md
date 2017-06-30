@@ -22,3 +22,8 @@ a place for the storage of large quantities of equipment, food, or some other co
 
 # inside scoop
 Information that only an insider would have.
+
+# tip jar
+
+# elevator pitch
+a succinct and persuasive sales pitch

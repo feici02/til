@@ -17,8 +17,11 @@ import buildins
 dir(builtins)
 ```
 
-## reference
+## books
+1. [Effective Python](http://www.effectivepython.com/)
+2. Fluent Python
 
+## reference
 1. [Official Documentation](https://docs.python.org/3/index.html)
 1. [Python 3 Module of the Week](https://pymotw.com/3/index.html)
 1. [Python tutorials on tuts+](https://code.tutsplus.com/categories/python)

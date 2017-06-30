@@ -65,6 +65,15 @@ docker run -itd --name test ubuntu sleep 10
 docker exec -it ubuntu bash
 ```
 
+## docker save/load
+```
+docker save -o <save image to path> <image name>
+# Then copy the image to a new system with tools such as scp.
+
+# After that you will have to load the image into docker:
+docker load -i <path to image tar file>
+```
+
 ## concepts
 1. docker engine
 1. docker compose
