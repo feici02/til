@@ -74,6 +74,17 @@ docker save -o <save image to path> <image name>
 docker load -i <path to image tar file>
 ```
 
+## Add user to the docker group
+When you run `docker version`, if you see following error:
+```
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get http://%2Fvar%2Frun%2Fdocker.sock/v1.27/version: dial unix /var/run/docker.sock: connect: permission denied
+```
+It means that your current your user are not in the `docker` group. You can run following command to fix this:
+```
+sudo usermod -a -G docker $USER
+```
+After running above command, you need to log out and log in to make it take effect. Now, you can run the `docker version` command successfully. If you run `id` command, group `docker` is listed in your groups.
+
 ## concepts
 1. docker engine
 1. docker compose
