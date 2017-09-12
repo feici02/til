@@ -17,6 +17,11 @@ import buildins
 dir(builtins)
 ```
 
+## Python 2 code to Python 3 code
+```
+2to3 -w hello.py
+```
+
 ## books
 1. [Effective Python](http://www.effectivepython.com/)
 2. Fluent Python
