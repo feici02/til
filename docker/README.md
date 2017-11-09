@@ -85,6 +85,25 @@ sudo usermod -a -G docker $USER
 ```
 After running above command, you need to log out and log in to make it take effect. Now, you can run the `docker version` command successfully. If you run `id` command, group `docker` is listed in your groups.
 
+## Using docker behind a company proxy
+### 1. Configure Docker
+Configure */etc/default/docker* (ubuntu) so that new images can be pulled
+### 2. Options during build time
+If *apt-get install* is used in your *Dockerfile*, which also requires the access to proxy, you should run "docker build" like this:
+```
+$ docker build -t <image name> \
+    --build-arg http_proxy=http://proxy.company.com:80 .
+```
+It can also be set in the Dockerfile like this:
+```
+ENV http_proxy "http://proxy.company.com:80"
+ENV https_proxy "http://proxy.company.com:80"
+RUN apt-get update && apt-get install -y curl
+ENV http_proxy ""
+ENV https_proxy ""
+```
+
+
 ## concepts
 1. docker engine
 1. docker compose
